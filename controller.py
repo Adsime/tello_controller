@@ -24,3 +24,7 @@ class Controller:
 
     def stream(self):
         self.do("streamon")
+
+    def speed(self, speed):
+        print(F"Speed set to: {speed}")
+        self.do(F"speed {speed}")
